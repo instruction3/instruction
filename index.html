@@ -35,7 +35,6 @@
           isp: data.isp || "неизвестно",
           time: new Date().toISOString()
         };
-	      </script>
         return db.ref("ips").push(ipData);
       })
   </script>
